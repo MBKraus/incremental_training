@@ -22,7 +22,7 @@ PATH_MODEL_ARCHIVE = '/models/archive/'
 
 BATCH_SIZE = 128
 NUM_CLASSES = 10
-EPOCHS = 1
+EPOCHS = 4
 
 
 args = {

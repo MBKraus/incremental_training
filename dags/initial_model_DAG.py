@@ -11,7 +11,7 @@ INITIAL_MODEL_PATH = "/models/current_model/initial_model.H5"
 
 BATCH_SIZE = 128
 NUM_CLASSES = 10
-EPOCHS = 1
+EPOCHS = 4
 
 args = {
     'owner': 'airflow',
