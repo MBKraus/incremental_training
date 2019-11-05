@@ -7,4 +7,4 @@ Let's say we got a ML model that has been put in production and is actively serv
 
 This repository takes on the topic of incrementally updating a ML model as new data becomes available. It mainly leans on three nifty tools, being [Kafka](https://github.com/apache/kafka), [Airflow](https://github.com/apache/airflow), and [MLFlow](https://github.com/mlflow/mlflow). 
 
-The corresponding [walkthrough/post](https://github.com/apache/kafka) on Medium lays out the workings of this repo step-by-step.
+The corresponding [walkthrough/post](https://medium.com/vantageai/keeping-your-ml-model-in-shape-with-kafka-airflow-and-mlflow-143d20024ba6) on Medium lays out the workings of this repo step-by-step.
