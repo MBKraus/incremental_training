@@ -1,5 +1,5 @@
 # Keeping your ML model in shape with Kafka, Airflow and MLFlow
-## *How to incrementally update your ML model in an automated way as new training data becomes available*
+### How to incrementally update your ML model in an automated way as new training data becomes available
 
 Fitting and serving your machine learning (ML) model is one thing, but what about keeping it in shape over time?
 
