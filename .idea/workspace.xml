@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3f89d3d-fe06-4be5-b478-61463c4bc31a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/initial_model_DAG.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/initial_model_DAG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/src/data/kafka_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/src/data/kafka_producer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/update_DAG.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/update_DAG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream_sample.p" beforeDir="false" afterPath="$PROJECT_DIR$/data/stream_sample.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/current_model/model_20191022_1933.H5" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +51,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -575,10 +574,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
