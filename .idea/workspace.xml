@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3f89d3d-fe06-4be5-b478-61463c4bc31a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/initial_model_DAG.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/initial_model_DAG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/update_DAG.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/update_DAG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/to_use_for_model_update/20191025_1156_new_samples.p" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/dags/src/data/kafka_producer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-end-line="37" />
+              <caret line="8" selection-end-line="37" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/dags/src/models/initial_model_functions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/dags/stream_DAG.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="17" column="24" lean-forward="true" selection-end-line="32" />
+              <caret line="17" column="24" selection-end-line="32" />
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
               </folding>
@@ -199,9 +199,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="158" />
-    <option name="y" value="88" />
+    <option name="y" value="87" />
     <option name="width" value="1454" />
     <option name="height" value="934" />
   </component>
@@ -247,6 +247,17 @@
               <item name="dags" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="incremental_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="incremental_training" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="incremental_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="incremental_training" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="current_model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,10 +436,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="88" width="1454" height="934" extended-state="0" />
-    <editor active="true" />
+    <frame x="158" y="87" width="1454" height="934" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25610608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25610608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,7 +449,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5457876" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5457876" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -547,7 +557,7 @@
     <entry file="file://$PROJECT_DIR$/dags/stream_DAG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="17" column="24" lean-forward="true" selection-end-line="32" />
+          <caret line="17" column="24" selection-end-line="32" />
           <folding>
             <element signature="e#1#15#0" expanded="true" />
           </folding>
@@ -557,7 +567,7 @@
     <entry file="file://$PROJECT_DIR$/dags/src/data/kafka_producer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-end-line="37" />
+          <caret line="8" selection-end-line="37" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -567,7 +577,7 @@
     <entry file="file://$PROJECT_DIR$/dags/src/models/initial_model_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
