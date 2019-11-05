@@ -1,6 +1,5 @@
 
 import airflow
-
 from airflow.models import DAG
 from airflow.operators.python_operator import PythonOperator
 

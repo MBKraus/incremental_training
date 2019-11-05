@@ -1,10 +1,10 @@
-from time import sleep
-from json import dumps
 from kafka  import KafkaProducer
 import random
 import pickle
 import os
 import logging
+from time import sleep
+from json import dumps
 
 
 def encode_to_json(x_train, y_train):

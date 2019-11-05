@@ -5,14 +5,14 @@ from airflow.models import DAG
 from airflow.operators.python_operator import PythonOperator
 
 from src.data.data_functions import get_data_from_kafka, load_data
-from src.models.update_functions import load_base_model, retrain_model, data_to_archive
+from src.models.update_functions import load_current_model, update_model, data_to_archive
 from src.preprocessing.preprocessing_functions import preprocessing
 
 CLIENT = 'kafka:9092'
 TOPIC = 'TopicA'
 
 PATH_NEW_DATA = '/data/to_use_for_model_update/'
-PATH_USED_DATA = '/data/used_for_for_model_update/'
+PATH_USED_DATA = '/data/used_for_model_update/'
 PATH_TEST_SET = '/data/test_set.p'
 
 PATH_INITIAL_MODEL = '/models/initial_model'
@@ -65,7 +65,7 @@ task3 = PythonOperator(
 
 task4 = PythonOperator(
     task_id='update_model',
-    python_callable=retrain_model,                       # function called to update model
+    python_callable=update_model,                       # function called to update model
     op_kwargs = {'num_classes': NUM_CLASSES,
                  'epochs': EPOCHS,
                  'batch_size': BATCH_SIZE,
