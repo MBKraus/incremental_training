@@ -1,6 +1,6 @@
 kafka-python==1.4.6
 Keras==2.2.5
-mlflow==1.23.1
+mlflow==2.3.1
 numpy==1.21.0
 pandas==0.25.1
 scikit-learn==0.21.3
